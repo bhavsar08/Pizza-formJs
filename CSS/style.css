@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0e0e0e;
+    margin: 0;
+    background-image: url(./pizzasample.jpg);
+    background-size: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 6px;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+div {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 20px;
+
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+    text-align: center;
+
+}
+
+.logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.logo h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button[type="ADD"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+form button[type="ADD"]:hover {
+    background-color: #ccc;
+}
+
+.pizza-option {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.pizza-option h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.pizza-option p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .logo h2 {
+        font-size: 16px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    form input,
+    form select {
+        font-size: 14px;
+    }
+
+    form button[type="add"] {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .pizza-option h3 {
+        font-size: 20px;
+    }
+
+    .pizza-option p {
+        font-size: 14px;
+    }
+}
